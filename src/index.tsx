@@ -1,7 +1,7 @@
 import React from "react";
 
 import ReactDOM from "react-dom";
-import ReactGA from "react-ga";
+//import ReactGA from "react-ga";
 import { HashRouter as Router, Route, Switch, withRouter } from "react-router-dom";
 import "./styles.scss";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
@@ -9,13 +9,13 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import HomePage from "./pages/homePage";
 import TermsPage from "./pages/termsPage";
 
-const trackingId = "UA-165996103-1";
-ReactGA.initialize(trackingId);
-ReactGA.pageview(window.location.pathname + window.location.search);
-ReactGA.set({
-  config: trackingId,
-  js: new Date(),
-});
+//const trackingId = "UA-165996103-1";
+//ReactGA.initialize(trackingId);
+//ReactGA.pageview(window.location.pathname + window.location.search);
+//ReactGA.set({
+ // config: trackingId,
+  //js: new Date(),
+//});
 
 const AnimatedSwitch = withRouter(({ location }) => {
   window.scrollTo(0, 0);
