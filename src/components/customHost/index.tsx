@@ -26,7 +26,7 @@ const CustomHost = ({ handleCloseDialog }: CustomHostP) => {
     notes: [],
     view: "up_and_down",
     increment: 1,
-    host: "interact.sh",
+    host: "tysbbcollab.xyz",
     tabs: [],
     token: "",
     selectedTab: {
